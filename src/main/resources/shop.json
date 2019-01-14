@@ -1,0 +1,87 @@
+{
+  "name": "Shop Name",
+  "categories": [
+    {
+      "id": 1,
+      "name": "SmartPhones",
+      "products": [
+        {
+          "brand": "Samsung",
+          "model": "A5",
+          "price": 123456,
+          "id": 1,
+          "imgSrc": "resources/imgs/smartphone.png"
+        },
+        {
+          "brand": "Samsung",
+          "model": "A8",
+          "price": 227864,
+          "id": 2,
+          "imgSrc": "resources/imgs/smartphone.png"
+        },
+        {
+          "brand": "Samsung",
+          "model": "Galaxy S9",
+          "price": 3568435,
+          "id": 3,
+          "imgSrc": "resources/imgs/smartphone.png"
+        },
+        {
+          "brand": "Philips",
+          "model": "S398",
+          "price": 799999,
+          "id": 4,
+          "imgSrc": "resources/imgs/smartphone.png"
+        },
+        {
+          "brand": "Philips",
+          "model": "S396",
+          "price": 659980,
+          "id": 5,
+          "imgSrc": "resources/imgs/smartphone.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "HeadPhones",
+      "products": [
+        {
+          "brand": "BeastAudio",
+          "model": "A565",
+          "price": 83456,
+          "id": 6,
+          "imgSrc": "resources/imgs/headphone.png"
+        },
+        {
+          "brand": "AKG",
+          "model": "S865",
+          "price": 103264,
+          "id": 7,
+          "imgSrc": "resources/imgs/headphone.png"
+        },
+        {
+          "brand": "AKG",
+          "model": "SL900",
+          "price": 156984,
+          "id": 8,
+          "imgSrc": "resources/imgs/headphone.png"
+        },
+        {
+          "brand": "BeastAudio",
+          "model": "GB3000",
+          "price": 2236597,
+          "id": 9,
+          "imgSrc": "resources/imgs/headphone.png"
+        },
+        {
+          "brand": "BeastAudio",
+          "model": "GB3005",
+          "price": 2300000,
+          "id": 10,
+          "imgSrc": "resources/imgs/headphone.png"
+        }
+      ]
+    }
+  ]
+}

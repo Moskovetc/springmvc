@@ -1,6 +1,6 @@
 package com.epam.springmvc.configuration;
 
-import com.epam.springmvc.ProductInitializer;
+import com.epam.springmvc.DataInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 public class InitializerConfiguration {
 
     @Bean(initMethod = "initProducts")
-    public ProductInitializer productInitializer() {
-        return new ProductInitializer();
+    public DataInitializer productInitializer() {
+        return new DataInitializer();
     }
 }
