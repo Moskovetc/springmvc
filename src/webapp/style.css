@@ -1,0 +1,355 @@
+body {
+    margin: 0%;
+}
+
+.fixed-position {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navigation-row-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+#logout {
+    margin: 0%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.nav-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav-left>div {
+    text-align: left;
+}
+
+.nav-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.search-bar-block :hover{
+    width: 75px;
+    background-color: yellow;
+}
+
+.search-bar-button {
+    width: 75px;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+#search-placeholder {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#search-placeholder input:first-child {
+    width: 70%;
+}
+
+.products-list-search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: scroll;
+    height: 80%;
+}
+
+.basket-content-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.products-list-basket {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: scroll;
+    height: 50%;
+}
+
+.sum-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.sum,
+.skidka {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 20%;
+    justify-content: flex-start;
+}
+
+.final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 20%;
+    justify-content: space-between;
+}
+
+.text-sum {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    font-size: 20px;
+}
+
+.count-sum {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    font-size: 20px;
+}
+
+.skidka>div {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    font-size: 20px;
+}
+
+.final>div {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    font-size: 20px;
+}
+
+.submit-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* margin: auto; */
+    border-style: solid;
+    border-color: black;
+}
+
+.popup-title {
+    text-align: center;
+}
+
+.popup-hr {
+    width: 80%;
+}
+
+.basket-block :hover{
+    border-radius: 10px;
+    width: 20px;
+    border: 1px solid blue;
+    text-align: center;
+    background-color: yellow;
+}
+#basket-button {
+    border-radius: 10px;
+    width: 20px;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.count {
+    text-align: right;
+    bottom: 0;
+}
+
+.username-block {
+    width: 150px;
+}
+
+.login-button-block :hover{
+    width: 100px;
+    background-color: yellow;
+}
+.login-button {
+    width: 100px;
+    border: 1px solid blue;
+    text-align: center;
+}
+.category-title-block {
+    position: sticky;
+    top: 19px;
+    background-color: white;
+}
+
+.category-title {
+    text-align: center;
+}
+
+.category-hr {
+    width: 80%;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: aliceblue;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.product-container-onclick {
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+    /* border-style: solid;
+    border-color: black; */
+    flex-wrap: wrap;
+    padding: 3px;
+    width: 135px;
+    /* width: 100%; */
+    justify-content: space-around;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* height: 20%; */
+    margin: auto;
+}
+
+.product-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* height: 20%; */
+    margin: auto;
+}
+
+.price {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 20%;
+    margin: auto;
+}
+
+.basket-button {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 20%;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+}
+
+.close-button {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-hr {
+    width: 100%
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    height: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
