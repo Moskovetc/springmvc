@@ -2,7 +2,7 @@ package com.epam.springmvc.api.impl;
 
 import com.epam.springmvc.api.ProductService;
 import com.epam.springmvc.data.Product;
-import com.epam.springmvc.repository.ProductRepository;
+import com.epam.springmvc.repository.DataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.List;
 public class ProductServiceImpl implements ProductService {
 
     @Autowired
-    private ProductRepository repository;
+    private DataRepository repository;
 
     @Override
     public Product getProductById(Long id) {
@@ -28,8 +28,8 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public Long createProduct(Product product) {
-        return repository.createProduct(product);
+    public Long createProduct(String categoryName, Product product) {
+        return repository.createProduct(categoryName, product);
     }
 
     @Override

@@ -2,8 +2,6 @@ package com.epam.springmvc;
 
 import com.epam.springmvc.api.impl.ProductServiceImpl;
 import com.epam.springmvc.configuration.ApplicationConfiguration;
-import com.epam.springmvc.repository.impl.ProductRepositoryImpl;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

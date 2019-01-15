@@ -1,10 +1,21 @@
-package com.epam.springmvc.api;
+package com.epam.springmvc.repository;
 
+import com.epam.springmvc.data.Category;
 import com.epam.springmvc.data.Product;
+import com.epam.springmvc.data.Shop;
 
 import java.util.List;
 
-public interface ProductService {
+public interface DataRepository {
+    Shop getShop();
+
+    void setShop(Shop shop);
+
+    List<Category> getCategories();
+
+    Category getCategoryByName(String categoryName);
+
+    Category getCategoryById(Long categoryId);
 
     Product getProductById(Long productId);
 

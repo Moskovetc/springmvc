@@ -1,7 +1,7 @@
 package com.epam.springmvc.configuration;
 
-import com.epam.springmvc.repository.ProductRepository;
-import com.epam.springmvc.repository.impl.ProductRepositoryImpl;
+import com.epam.springmvc.repository.DataRepository;
+import com.epam.springmvc.repository.impl.DataRepositoryImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Configuration;
 public class RepositoryConfiguration {
 
     @Bean
-    public ProductRepository productRepository() {
-        return new ProductRepositoryImpl();
+    public DataRepository productRepository() {
+        return new DataRepositoryImpl();
     }
 
 }
